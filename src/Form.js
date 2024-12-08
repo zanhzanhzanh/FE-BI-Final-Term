@@ -9,73 +9,73 @@ const Form = ({setData}) => {
         <p className="title">House Price Prediction</p>
         <p className="message">Fill in the values below to predict your home price.</p>
         <label>
-          <input className="input" name="address" type="text" placeholder required />
+          <input className="input" name="address" type="text" placeholder />
           <span>Address</span>
         </label>
         <label>
-          <input className="input" name='area' type="number" placeholder required />
+          <input className="input" name='area' type="number" placeholder />
           <span>Area</span>
         </label>
         <label>
-          <input className="input" name='frontage' type="number" placeholder required />
+          <input className="input" name='frontage' type="number" placeholder />
           <span>Frontage</span>
         </label>
         <label>
-          <input className="input" name='accessRoad' type="number" placeholder required />
+          <input className="input" name='accessRoad' type="number" placeholder />
           <span>Access Road</span>
         </label>
         <label>
-          <input className="input" name='houseDirection' type="text" placeholder required />
+          <input className="input" name='houseDirection' type="text" placeholder />
           <span>House direction</span>
         </label>
         <label>
-          <input className="input" name='balconyDirection' type="text" placeholder required />
+          <input className="input" name='balconyDirection' type="text" placeholder />
           <span>Balcony direction</span>
         </label>
         <label>
-          <input className="input" name='floors' type="number" placeholder required />
+          <input className="input" name='floors' type="number" placeholder />
           <span>Floors</span>
         </label>
         <label>
-          <input className="input" name='bedrooms' type="number" placeholder required />
+          <input className="input" name='bedrooms' type="number" placeholder />
           <span>Bedrooms</span>
         </label>
         <label>
-          <input className="input" name='bathrooms' type="number" placeholder required />
+          <input className="input" name='bathrooms' type="number" placeholder />
           <span>Bathrooms</span>
         </label>
         <label>
-          <select className="input list-input" name='legalStatus' placeholder required>
+          <select className="input list-input" name='legalStatus' placeholder>
             <option value="Have certificate">Have certificate</option>
             <option value="Sale contract">Sale contract</option>
           </select>
           <span>Legal status</span>
         </label>
         <label>
-          <select className="input list-input" name='furnitureState' placeholder required>
+          <select className="input list-input" name='furnitureState' placeholder>
             <option value="Full">Full</option>
             <option value="Basic">Basic</option>
           </select>
           <span>Furniture state</span>
         </label>
         <label>
-          <input className="input" name='project' type="text" placeholder required />
+          <input className="input" name='project' type="text" placeholder />
           <span>Project</span>
         </label>
         <label>
-          <input className="input" name='city' type="text" placeholder required />
+          <input className="input" name='city' type="text" placeholder />
           <span>City</span>
         </label>
         <label>
-          <input className="input" name='ward' type="text" placeholder required />
+          <input className="input" name='ward' type="text" placeholder />
           <span>Ward</span>
         </label>
         <label>
-          <input className="input" name='district' type="text" placeholder required />
+          <input className="input" name='district' type="text" placeholder />
           <span>District</span>
         </label>
         <label>
-          <input className="input" name='location' type="text" placeholder required />
+          <input className="input" name='location' type="text" placeholder />
           <span>Location</span>
         </label>
         <p className="signin">Review information carefully before submitting.</p>
