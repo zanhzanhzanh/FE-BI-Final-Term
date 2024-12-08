@@ -13,15 +13,15 @@ const Form = ({setData}) => {
           <span>Address</span>
         </label>
         <label>
-          <input className="input" name='area' type="number" placeholder />
+          <input className="input" name='area' step='any' min='0' type="number" placeholder />
           <span>Area</span>
         </label>
         <label>
-          <input className="input" name='frontage' type="number" placeholder />
+          <input className="input" name='frontage' step='any' min='0' type="number" placeholder />
           <span>Frontage</span>
         </label>
         <label>
-          <input className="input" name='accessRoad' type="number" placeholder />
+          <input className="input" name='accessRoad' step='any' min='0' type="number" placeholder />
           <span>Access Road</span>
         </label>
         <label>
@@ -33,15 +33,15 @@ const Form = ({setData}) => {
           <span>Balcony direction</span>
         </label>
         <label>
-          <input className="input" name='floors' type="number" placeholder />
+          <input className="input" name='floors' type="number" min='0' placeholder />
           <span>Floors</span>
         </label>
         <label>
-          <input className="input" name='bedrooms' type="number" placeholder />
+          <input className="input" name='bedrooms' type="number" min='0' placeholder />
           <span>Bedrooms</span>
         </label>
         <label>
-          <input className="input" name='bathrooms' type="number" placeholder />
+          <input className="input" name='bathrooms' type="number"min='0' placeholder />
           <span>Bathrooms</span>
         </label>
         <label>
